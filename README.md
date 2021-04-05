@@ -7,6 +7,10 @@ Neo Geo Pocket games.
 
 This does not include any ROMs or anything to help you hack the system.
 
+Game card artwork is included only for the games I was personally interested in playing
+on the system. As such, this is not a complete collection of cards, but if you want to add
+your own a template has been included to do so!
+
 # Before you start!
 
 Make a backup of your `ASPh` directory before making any changes! It's very easy to mess

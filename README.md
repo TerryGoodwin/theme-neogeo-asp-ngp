@@ -43,7 +43,7 @@ pasted into your `lang_array.ini` so they match.
 
 Remember what line it is in your `lang_array.ini` file - this is important. For example,
 if you're replacing French that is the third line. For our purposes we start with `0`, so
-the first line makes it index `2` - this is needed for the next part.
+the third line makes it index `2` - this is needed for the next part.
 
 Look in the directory `ASPh\image` included here, and replace the `2` with the number
 you got above for both the file `global_bg_2.png` and the directory `main\game_focus_2`

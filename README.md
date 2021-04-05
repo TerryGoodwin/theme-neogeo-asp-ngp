@@ -18,6 +18,13 @@ hacked `lang_array.ini` for a system that you know was working fine.
 
 # How to install
 
+If you don't already have a script to launch NeoGeo Pocket games through RetroArch, copy
+the file `retroarch\bin\ngp` to your existing `retroarch\bin` directory. If you do already
+have a script, the `emuinfo.txt` stuff included here and explained further down expects
+your script to launch NeoGeo Pocket games to be called `ngp` - if it's not, you'll need
+to make adjustments to the `emuinfo.txt` and `rominfo.txt` files to reflect this
+difference...
+
 From your existing `ASPh\local` directory, go into one of the existing system directories
 (e.g. `English`) and copy the `help` directory to the `ASPh\local\French` directory
 included here.

@@ -1,0 +1,18 @@
+#!/system/bin/sh
+
+LD_LIBRARY_PATH=/mnt/hdisk/retroarch/lib:$LD_LIBRARY_PATH
+RAPATH=/mnt/hdisk/retroarch
+RABIN=${RAPATH}/bin/retroarch
+CORESPATH=${RAPATH}/cores
+RACFG=${RAPATH}/retroarch.cfg
+
+export HOME=/mnt/hdisk/
+
+busybox fbset -fb /dev/fb0 -g 1280 720 1280 720 32 
+
+retroarch_launch () {
+    $RABIN --verbose --log-file /mnt/hdisk/ra_${1}.log -c $RACFG -L $CORESPATH/${1}_libretro.so ${2} &> /mnt/hdisk/error_ra_${1}.log
+}
+
+retroarch_launch mednafen_ngp $1
+

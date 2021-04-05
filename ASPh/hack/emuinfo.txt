@@ -1,0 +1,2 @@
+ngp
+/mnt/hdisk/retroarch/bin/ngp

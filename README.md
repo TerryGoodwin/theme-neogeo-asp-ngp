@@ -11,6 +11,14 @@ Game card artwork is included only for the games I was personally interested in 
 on the system. As such, this is not a complete collection of cards, but if you want to add
 your own a template has been included to do so!
 
+# What it looks like
+
+An example card:  
+![alt text](https://raw.githubusercontent.com/TerryGoodwin/theme-neogeo-asp-ngp/main/ASPh/games/ngpc_samsho2/cover.png "Samurai Shodown! 2 card")
+
+A crude photo taken from the TV of the theme in action:  
+![alt text](https://raw.githubusercontent.com/TerryGoodwin/theme-neogeo-asp-ngp/main/photo_inaction.png "Photo from the TV")
+
 # Before you start!
 
 Make a backup of your `ASPh` directory before making any changes! It's very easy to mess
